@@ -1,0 +1,41 @@
+#mother_div
+{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    align-items: center;
+    text-align: center;
+    border: groove;
+    padding-bottom: 2%;
+}
+
+#grafico
+{
+    background-color: yellow;
+    box-shadow: 2px 5px #000000;
+  
+}
+
+.lucro
+{
+text-align: center;
+background-color: green;
+margin-top: 2%;
+margin-bottom: 1%;
+padding: 1%;
+color: white;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+.saida
+{
+text-align: center;
+background-color: red;
+margin-bottom: 1%;
+padding: 1%;
+color: white;
+
+margin-left: 2%;
+margin-right: 2%;
+}

@@ -1,0 +1,42 @@
+#mother_div
+{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#tabela
+{
+  
+    width: 100%;
+    border-style: groove;
+    background-color:blanchedalmond;
+    margin-bottom: 2%;
+  
+}
+
+.colunas
+{
+    border: 1px solid black;
+}
+
+#linha1
+{
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+}
+
+#campo_pesquisa
+{
+    display: flex;
+    margin-bottom: 2%;
+    
+}
+
+#botao
+{
+    margin-left: 2%;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+}

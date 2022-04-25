@@ -1,0 +1,56 @@
+#mother_div
+{
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    border: groove;
+    padding-bottom: 2%;
+    margin: 2%;
+}
+
+#caixas_cima
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.tabela
+{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+#cadastrar
+{
+
+
+}
+
+#gerar_relatorio
+{
+   justify-self: right;
+   align-self: right;
+
+}
+#botao
+{
+    margin-left: 65%;
+    width: 200px;
+}
+
+#espaco
+{
+    margin-left: 20%;
+    margin-bottom: 20%;
+    color: white;
+    height: 2px;
+}
+
+#grafico
+{
+    background-color: yellow;
+    box-shadow: 2px 5px #000000;
+  
+}

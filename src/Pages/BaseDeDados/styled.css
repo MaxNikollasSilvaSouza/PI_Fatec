@@ -1,0 +1,46 @@
+.padrao
+{
+border-style: groove;
+display: flex;
+justify-content: center;
+margin-top: 1%;
+align-items: center;
+}
+.estatisticas
+{
+background-color: orange;
+}
+
+.acessar
+{
+    background-color: green;
+}
+.titulo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: groove;
+    padding: 1%;
+    margin-top: 2%;
+  
+}
+.figura_nome
+{
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.textbt
+{
+    color: blue;
+    font-weight: bold;
+   
+}
+
