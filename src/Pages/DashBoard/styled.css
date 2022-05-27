@@ -1,5 +1,4 @@
-#mother_div
-{
+#mother_div {
     padding-right: 1%;
     padding-left: 1%;
     padding-top: 1%;
@@ -8,49 +7,133 @@
     margin: 2%;
 }
 
-#caixas_cima
-{
+#caixas_cima {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
-.tabela
-{
+
+.tabela {
     border: 1px solid black;
     padding: 5px;
     text-align: center;
-    
-}
-
-#cadastrar
-{
-
 
 }
 
-#gerar_relatorio
-{
-   justify-self: right;
-   align-self: right;
+#cadastrar {}
+
+#gerar_relatorio {
+    justify-self: right;
+    align-self: right;
 
 }
-#botao
-{
+
+#botao {
     margin-left: 65%;
     width: 200px;
 }
 
-#espaco
-{
+#espaco {
     margin-left: 20%;
     margin-bottom: 20%;
     color: white;
     height: 2px;
 }
-
-#grafico
+#titulografico
 {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
     background-color: yellow;
-    box-shadow: 2px 5px #000000;
-  
 }
+#ordemg2
+{
+    width: 100%;
+
+    text-align: left;
+}
+#grafico {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    padding-left: 40%;
+    display: flex;
+    padding-bottom: 2%;
+    
+}
+#branco
+{
+    background-color: white;
+    color: white;
+    /*https://github.com/paulorafaeljobs/Graficos-Html-CSS/blob/main/grafico-barra.html*/
+}
+#grafdireito {
+    padding-left: 2%;
+
+}
+#flex
+{
+    display: flex;
+    
+}
+
+#legenda1 {
+    /*https://maujor.com/tutorial/borderplay.php*/
+    display: flex;
+    margin-right: 5%;
+    margin-top: 1%;
+    width: 10px;
+    height: 10px;
+    border: 10px solid;
+    /* As 4 bordas sólidas com 25px de espessura */
+    border-color: #f00 #f00 #f00 #f00;
+    /* cores: topo, direita, inferior, esquerda */
+}
+
+#legenda2 {
+    /*https://maujor.com/tutorial/borderplay.php*/
+    margin-top: 1%;
+    margin-right: 5%;
+    width: 10px;
+    height: 10px;
+    border: 10px solid;
+    /* As 4 bordas sólidas com 25px de espessura */
+    border-color: #0f0  #0f0  #0f0 #0f0;
+    /* cores: topo, direita, inferior, esquerda */
+}
+#radio
+{
+    margin-right: 3px;
+}
+#radiobutao
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+/*
+
+*/
+.piechart {
+   /*https://acervolima.com/como-criar-um-grafico-de-pizza-usando-html-e-css/*/
+    display: block;
+    margin-top: 1%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        rgb(9, 228, 5) 70deg, 
+        rgb(9, 228, 5) 0 235deg, 
+        red 0);
+}
+
+/*
+*/
+
+.vertical{display: flex;align-items: flex-end; background-color: rgb(255, 255, 255); margin-top: 3%;margin-bottom: 3%;}
+.vertical > div {font-size: 14px; margin-left: 5px;margin-right: 5px;text-align: center;}
+.gbarras{width: 50px;background-color: rgb(9, 238, 223);}

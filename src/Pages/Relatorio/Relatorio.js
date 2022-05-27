@@ -1,5 +1,5 @@
 import React from "react";
-import "./styled.css"
+import "./Styled.css"
 
 function Relatorio() {
     return (
