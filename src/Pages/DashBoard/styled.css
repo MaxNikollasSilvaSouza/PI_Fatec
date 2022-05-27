@@ -1,16 +1,19 @@
 #mother_div {
     padding-right: 1%;
     padding-left: 1%;
-    padding-top: 1%;
+    padding-top: 0%;
     border: groove;
     padding-bottom: 2%;
     margin: 2%;
+    margin-top: 0%;
 }
 
 #caixas_cima {
+    margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 3%;
 }
 
 .tabela {
@@ -25,16 +28,21 @@
 #gerar_relatorio {
     justify-self: right;
     align-self: right;
+    padding-left: 39%;
+       
 
 }
 
 #botao {
     margin-left: 65%;
     width: 200px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border:solid black 2px;
 }
 
 #espaco {
-    margin-left: 20%;
+    margin-left: 35%;
     margin-bottom: 20%;
     color: white;
     height: 2px;
@@ -129,11 +137,26 @@
         rgb(9, 228, 5) 70deg, 
         rgb(9, 228, 5) 0 235deg, 
         red 0);
+    
 }
 
 /*
 */
 
-.vertical{display: flex;align-items: flex-end; background-color: rgb(255, 255, 255); margin-top: 3%;margin-bottom: 3%;}
-.vertical > div {font-size: 14px; margin-left: 5px;margin-right: 5px;text-align: center;}
-.gbarras{width: 50px;background-color: rgb(9, 238, 223);}
+.vertical{
+    display: flex;
+    align-items: flex-end; 
+    background-color: lightgray; 
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.vertical > div {
+    font-size: 14px;
+     margin-left: 5px;margin-right: 5px;
+     text-align: center;
+    
+    }
+.gbarras{
+    width: 50px;
+    background-color: rgb(9, 20, 238);
+}

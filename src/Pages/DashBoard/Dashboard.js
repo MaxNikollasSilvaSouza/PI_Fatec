@@ -5,8 +5,9 @@ function Dashboard() {
     return (
         <>
 
-
+          
             <div id="mother_div">
+
                 <div id="caixas_cima">
 
                     <div id="cadastrar">
@@ -30,9 +31,7 @@ function Dashboard() {
                             </tr>
                         </table>
                     </div>
-                    <div id="espaco">
-                        ...
-                    </div>
+
                     <div id="gerar_relatorio">
                         <table >
                             <tr className="tabela">
